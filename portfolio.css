@@ -105,6 +105,23 @@
 .skills
 {
     padding: 10px 0 0 0;
+    display: block;
+}
+.btnSkills
+{
+    padding: 10px;
+    margin: 0 3% 0 0;
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+}
+#btnSkills1 
+{
+    margin: 0 2.5% 0 2.5%
+}
+.carousel-item
+{
+    text-align: center;
 }
 /*portfolio*/
 .works
@@ -121,11 +138,12 @@ ul#breadcrumb li
 {
     display: inline;
 }
-#breadcrumb
+#breadcrumb-item
 {
     list-style-type: none;
     position: relative;
     background-color: transparent;
+    border: 0px;
 }
 /* resume */
 .downRes
@@ -208,9 +226,15 @@ ul#breadcrumb li
     left: 34.33%;
     margin: 10px;
 }
+#subBtn
+{
+    float: right;
+    margin: 0 0 10px 0;
+}
 /*footer*/
 .footer
 {
     color: grey;
     text-align: center;
 }
+

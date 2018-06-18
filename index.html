@@ -43,10 +43,10 @@
         </li>
         </ul>
         <div class="nav-button">
-            <button  class = "github" id = "github" href="#">  <img src ="01-assets/github.png" width = "25%" class = "logos"  /> Github</button>
+            <a href="https://github.com/chrisjacobs050" target="_blank"><button  class = "github" id = "github" >  <img src ="01-assets/github.png" width = "25%" class = "logos"  />Github</button></a>
         </div>
         <div class="nav-button">
-            <button  class = "linkedIn" id = "linkedIn" href="#"> <img src ="01-assets/linkedIn.jpg" width = "21%" class = "logos" id = "LILogo" /> Linked in</button>
+           <a href = "https://www.linkedin.com/in/christopher-jacobs/"target="_blank"><button  class = "linkedIn" id = "linkedIn"> <img src ="01-assets/linkedIn.jpg" width = "21%" class = "logos" id = "LILogo" />Linked in</button></a>
         </div>
     </div>
     </nav>
@@ -77,23 +77,46 @@
 
         <!--Skill Set-->
         <h1 class = "titSkills">What I bring to the Table</h1>
-        <nav aria-label="..." class = "skills">
-            <ul class="pagination pagination-lg">
-              <li class="page-item"><a class="page-link" href="#" tabindex="-1">Website Development</a></li>
-              <li class="page-item"><a class="page-link" href="#">Calibration of Equipment</a></li>
-              <li class="page-item"><a class="page-link" href="#">Experience with multiple coding languages</a></li>
-              <li class="page-item"><a class="page-link" href="#">Leadership and Communication</a></li>
-              <li class="page-item"><a class="page-link" href="#">Other interesting facets about me</a></li>
-            </ul>
+        <nav aria-label="..." class = "skills" width = >
+              <button class = "btnSkills" id ="btnSkills1">Website Development</button>
+              <button class = "btnSkills">Calibration of Equipment</button>
+              <button class = "btnSkills">Experience with multiple coding languages</button>
+              <button class = "btnSkills">Leadership and Communication</button>
+              <button class = "btnSkills">Other interesting facets about me</button>
           </nav>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" id = "carousel1">
+                    <p>Website development</p>
+                  </div>
+                  <div class="carousel-item"  id = "carousel2">
+                   <p>Calibration of equipment</p>
+                  </div>
+                  <div class="carousel-item"  id = "carousel3">
+                    <p>coding with other languages</p>
+                  </div>
+                  <div class="carousel-item"  id = "carousel4">
+                        <p>leadership and communication</p>
+                  </div>
+                  <a onClick=""><div class="carousel-item" id = "carousel5"></a>
+                        <p>Interesting things about me</p>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </a>
+                </div>
+              </div>
         <!--Works-->
         <h1 class = "works">Examples of my work</h1>
         <nav aria-label="breadcrumb" class = "selection">
             <div id = "selection">
                 <ul id ="breadcrumb">
-                  <li class="breadcrumb-item" aria-current="page"><a href="#">All</a></li>
-                  <li class="breadcrumb-item"><a href="#">Web Development</a></li>
-                  <li class="breadcrumb-item"><a href="#">Other Works</a></li>
+                  <li class="breadcrumb-item" aria-current="page"><button id="breadcrumb-item">All</button></li>
+                  <li class="breadcrumb-item"><button id="breadcrumb-item">Web Development</button></li>
+                  <li class="breadcrumb-item"><button id="breadcrumb-item">Other Works</button></li>
                 </ul>
                 </div>
             </nav>
@@ -103,8 +126,7 @@
             <img src = "./01-assets/Farris.jpg" class = "farris" />
                 <div class = "resume"><h3>Find out more about me and download my resume</h3></div>
                 <div class = "resumeButton" id = "resumeButton">
-                    <button>Download My Resume</button>
-                </div>
+                    <a href ="https://docs.google.com/document/d/1B6KNbInghU04IF0R61jN9cbKy2dQs29nDjPHx_FA32Y/edit?usp=sharing"><button>Download My Resume</button></a>                </div>
                 <div class = "quote" id = "quote"><p>"Always keep learning, it keeps you young!" ~ Patty Berg</p></div>
         </div>
         <!--Experience-->
@@ -187,7 +209,7 @@
                             </div>
                             <div class="text-center">
                               <div id="success"></div>
-                              <button type="submit" class="btn btn-lg btn-black">
+                              <button type="submit" class="btn btn-lg btn-black" id = "subBtn">
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 Send Message
                               </button>
