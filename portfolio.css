@@ -163,7 +163,11 @@ ul#breadcrumb li
 .container3
 {
     width: 75%;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 10%;
+}
+.embedly-card
+{
+    text-align:center;
 }
 /* resume */
 .downRes
