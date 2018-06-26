@@ -163,11 +163,18 @@ ul#breadcrumb li
 .container3
 {
     width: 75%;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 12.5%;
 }
 .embedly-card
 {
     text-align:center;
+    background-color: rgba(123, 189, 255, .16);
+    padding:  10px 10px 8.2px 10px;
+    border: 1px solid white;
+}
+#link
+{
+    color:black;
 }
 /* resume */
 .downRes
@@ -224,6 +231,13 @@ ul#breadcrumb li
     background-color: rgba(0, 0, 0, 0.075);
 }
 /*get in touch*/
+.container4
+{
+    background-color: rgba(123, 189, 255, 0.080);
+    width: 80%;
+    margin: 0 0 0 10%;
+    border: 3px solid white;
+}
 .getInTouch
 {
     width: 100%;
