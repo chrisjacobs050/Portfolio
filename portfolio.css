@@ -10,7 +10,7 @@
 {
     position: fixed;
     z-index:2;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 1% 0px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.308);
 }
@@ -53,11 +53,12 @@
 {
     z-index:0;
     position: relative;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .name
 {
     position: absolute; 
+    text-align:center;
     left: 38%;
     bottom: 75%;
 }
@@ -130,7 +131,7 @@
 .skillsTitle
 {
     position: relative;
-    left: 35%;
+    text-align: center
 }
 #icons
 {
@@ -146,7 +147,7 @@
   height: 100px;
   width: 100px;
   outline: black;
-  background-size: 100%, 100%;
+  background-size: 100%;
   border-radius: 50%;
   border: 1px solid black;
   background-image: none;
@@ -191,37 +192,49 @@ ul#breadcrumb li
     color:black;
 }
 /* resume */
+.resumeDownloadable
+{
+    position:relative;
+}
+
 .downRes
 {
     position:relative;
     background-color: transparent;
+    width: 100%;
 }
-.farris
+#farris
 {
     position: relative;
     z-index: 0;
+    height: 100%;
     width:100%;
-    height: 300px;
+    
 }
-.resume, .resumeButton, .quote
+#resumeDownloadable
 {
     position: absolute;
-    z-index: 1;
-    bottom: 50%;
-    left: 32%;
+    bottom: 40%;
     text-align: center;
-    padding: 10px 0 10px 0;
+    left: 10%;
+    margin: 0 0 0 0;
+}
+#resume
+{
+    position: relative;
+    z-index: 1;
 }
 #resumeButton
 {
-   bottom: 45%;
-   left: 50%;
+    position: relative;
+    z-index: 1;
 }
 #quote
 {
+    position: relative;
+    z-index: 1;
     font-size: 35px;
-    bottom: 10%;
-    left: 25%;
+    
 }
 /* experience */
 .experience
