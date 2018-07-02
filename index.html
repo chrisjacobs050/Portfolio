@@ -64,16 +64,22 @@
         </div>
     </nav>
     <!--cool background scene-->
-    <div class="picture">
+    <div class="row">
       <img src="https://images.unsplash.com/photo-1504890135076-e4fcdd71043c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=704fa85a2f49d0e4cd2ce092ba360bff&auto=format&fit=crop&w=1000&q=60"
         style="height: 800px" width="100%">
-      <div class="name">
-        <h1>Christopher Jacobs</h1>
-      </div>
-      <div class="description">
-        <h5>Engineer, Teacher, Helper </h5>
+      <div id="nameDescription">
+        <div class="col-sm">
+          <div id="name">
+            <h1>Christopher Jacobs</h1>
+          </div>
+          <div id="description">
+            <h5>Engineer, Teacher, Helper </h5>
+          </div>
+        </div>
       </div>
     </div>
+    </div>
+
     <hr / id="whoAmI" width="0%">
     <br>
     <br>
@@ -181,7 +187,7 @@
         <div class="col-sm">
           <div class="embedly-card">
             <h4>
-              <a id="link" href="https://chrisjacobs050.github.io/store/" target="_blank">Website</a>
+              <a id="link" href="https://chrisjacobs050.github.io/store/" target="_blank">Website (Browser Only)</a>
             </h4>
             <img src="01-assets/Website.PNG" width="100%" height="213px">
           </div>
@@ -231,115 +237,115 @@
         </div>
       </div>
     </div>
+    <br>
     <hr / id="resume" width="0%">
     <br>
     <br>
     <!--Resume(Downloadable)-->
-    <div class="resumeDownloadable">
-      <img src="./01-assets/Farris.jpg" id="farris" />
-      <div class="row" id="resumeDownloadable">
-        <div class="col-sm" id="resumeButton">
-          <div id="resume">
-            <h3>view my resume:</h3>
-          </div>
-          <a href="https://docs.google.com/document/d/1B6KNbInghU04IF0R61jN9cbKy2dQs29nDjPHx_FA32Y/edit?usp=sharing" target="_blank">
-            <i class="fas fa-file-alt fa-5x" style="color: black"></i>
-          </a>
-        </div>
+    <div class="container5">
 
-        <div class="col-sm" id="quote">
-          <p>"Always keep learning, it keeps you young!" ~ Patty Berg</p>
+      <div class="row">
+        <img src="./01-assets/Farris.jpg" width="100%" />
+        <div id="resumeDownloadable">
+          <div class="col-sm" id="resumeButton">
+            <div id="resume">
+              <h3>view my resume:</h3>
+            </div>
+            <a href="https://docs.google.com/document/d/1B6KNbInghU04IF0R61jN9cbKy2dQs29nDjPHx_FA32Y/edit?usp=sharing" target="_blank">
+              <i class="fas fa-file-alt fa-5x" style="color: black"></i>
+            </a>
+          </div>
+          <p id="quote">"Always keep learning, it keeps you young!" ~ Patty Berg</p>
         </div>
       </div>
-    </div>
-    <hr / id="experience" width="0%">
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--Experience-->
-    <h1 class="exp">What I have done</h1>
-    <div class="experience">
-      <div class="card">
-        <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Physics Tutor</h5>
-        <div class="card-body">
-          <h5 class="card-title">Aug 2017 - Current</h5>
-          <p class="card-text">I have a natural tendency to teach others and tutoring allows me to expand on these skills while doing somthing
-            I enjoy.</p>
+      <hr / id="experience" width="0%">
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--Experience-->
+      <h1 class="exp">What I have done</h1>
+      <div class="experience">
+        <div class="card">
+          <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Physics Tutor</h5>
+          <div class="card-body">
+            <h5 class="card-title">Aug 2017 - Current</h5>
+            <p class="card-text">I have a natural tendency to teach others and tutoring allows me to expand on these skills while doing somthing
+              I enjoy.</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Physics Assistant</h5>
-        <div class="card-body">
-          <h5 class="card-title">Feb 2018 - Current</h5>
-          <p class="card-text">I have the will to do mundane work which expands my skill in organization and giving constructive feedback on other
-            students work.</p>
+        <div class="card">
+          <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Physics Assistant</h5>
+          <div class="card-body">
+            <h5 class="card-title">Feb 2018 - Current</h5>
+            <p class="card-text">I have the will to do mundane work which expands my skill in organization and giving constructive feedback on
+              other students work.</p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Chef</h5>
-        <div class="card-body">
-          <h5 class="card-title">May 2017 - Current</h5>
-          <p class="card-text">I can efficiently multitask and this allows me to work in an environment that shows my stregnth, allowing me to
-            build on this skill.</p>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--Get in touch-->
-    <hr / width="100%" color="black">
-    <hr / id="contactMe" width="0%">
-    <section id="contact">
-      <div class="container4">
-        <h2 class="text-center text-uppercase">Contact Me</h2>
-        <div class="row">
-          <div class="col-12">
-            <form action="https://formspree.io/cjacobs022020@manchester.edu" method="POST">
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Name</label>
-                  <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name"
-                    name="name">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Email Address</label>
-                  <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email"
-                    name="_replyto">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Your Message</label>
-                  <textarea class="form-control" rows="5" placeholder="Your Message" id="message" required data-validation-required-message="Please leave a message"
-                    name="message"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-lg btn-black" id="subBtn">
-                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                  Send Message
-                </button>
-              </div>
-            </form>
+        <div class="card">
+          <h5 class="card-header" style=" background-color:rgba(123, 189, 255, 0.164)">Chef</h5>
+          <div class="card-body">
+            <h5 class="card-title">May 2017 - Current</h5>
+            <p class="card-text">I can efficiently multitask and this allows me to work in an environment that shows my stregnth, allowing me
+              to build on this skill.</p>
           </div>
         </div>
       </div>
-    </section>
-    <!--Footer (Links, Copywrite etc.)-->
-    <div class="footer">
-      <hr / width="33%" color="grey">
-      <h6>© Christopher Jacobs 2018 </h6>
-    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--Get in touch-->
+      <hr / width="100%" color="black">
+      <hr / id="contactMe" width="0%">
+      <section id="contact">
+        <div class="container4">
+          <h2 class="text-center text-uppercase">Contact Me</h2>
+          <div class="row">
+            <div class="col-12">
+              <form action="https://formspree.io/cjacobs022020@manchester.edu" method="POST">
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name"
+                      name="name">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email"
+                      name="_replyto">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea class="form-control" rows="5" placeholder="Your Message" id="message" required data-validation-required-message="Please leave a message"
+                      name="message"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black" id="subBtn">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer (Links, Copywrite etc.)-->
+      <div class="footer">
+        <hr / width="33%" color="grey">
+        <h6>© Christopher Jacobs 2018 </h6>
+      </div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
